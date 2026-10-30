@@ -1,0 +1,101 @@
+/* Copied from @nativelink/tokens so this page already looks like docs.nativelink.com. */
+
+:root,
+:root[data-theme='light'] {
+  --nl-color-background: 250 248 245;
+  --nl-color-surface: 255 255 255;
+  --nl-color-surface-elevated: 252 250 247;
+
+  --nl-color-foreground: 17 17 19;
+  --nl-color-muted: 102 105 115;
+  --nl-color-muted-foreground: 70 73 82;
+
+  --nl-color-border: 226 224 218;
+  --nl-color-border-strong: 200 197 188;
+  --nl-color-accent-line: 226 224 218;
+
+  --nl-color-brand: 114 71 255;
+  --nl-color-brand-strong: 88 50 220;
+  --nl-color-brand-soft: 235 228 255;
+  --nl-color-brand-foreground: 255 255 255;
+
+  --nl-color-success: 39 168 137;
+  --nl-color-success-soft: 220 240 232;
+
+  --nl-color-accent: 17 17 19;
+  --nl-color-accent-hover: 38 38 42;
+}
+
+:root[data-theme='dark'],
+.nl-game[data-theme='dark'] {
+  --nl-color-background: 10 9 14;
+  --nl-color-surface: 18 17 24;
+  --nl-color-surface-elevated: 26 24 34;
+
+  --nl-color-foreground: 245 244 248;
+  --nl-color-muted: 148 150 162;
+  --nl-color-muted-foreground: 188 190 202;
+
+  --nl-color-border: 38 36 50;
+  --nl-color-border-strong: 60 58 78;
+  --nl-color-accent-line: 38 36 50;
+
+  --nl-color-brand: 156 124 255;
+  --nl-color-brand-strong: 188 162 255;
+  --nl-color-brand-soft: 38 28 70;
+  --nl-color-brand-foreground: 250 248 255;
+
+  --nl-color-success: 88 220 178;
+  --nl-color-success-soft: 22 50 42;
+
+  --nl-color-accent: 245 244 248;
+  --nl-color-accent-hover: 220 218 228;
+}
+
+:root {
+  --nl-font-sans: var(
+    --font-geist-sans,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif
+  );
+  --nl-font-mono: var(
+    --font-geist-mono,
+    ui-monospace,
+    'SF Mono',
+    Menlo,
+    Monaco,
+    Consolas,
+    'Liberation Mono',
+    'Courier New',
+    monospace
+  );
+
+  --nl-text-xs: 0.75rem;
+  --nl-text-sm: 0.875rem;
+  --nl-text-base: 1rem;
+  --nl-text-lg: 1.25rem;
+  --nl-text-xl: 1.5rem;
+  --nl-text-2xl: 1.875rem;
+  --nl-text-3xl: 2.53125rem;
+  --nl-text-4xl: 3.375rem;
+  --nl-text-5xl: 4.5rem;
+  --nl-text-6xl: 6rem;
+
+  --nl-space-section-y: 5rem;
+  --nl-space-hero-y: 7.5rem;
+  --nl-container-max: 75rem;
+  --nl-hero-headline-max: 53.125rem;
+  --nl-hero-subtitle-max: 34.375rem;
+  --nl-touch-min: 2.75rem;
+
+  --nl-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --nl-duration-fast: 150ms;
+  --nl-duration-base: 250ms;
+  --nl-duration-slow: 600ms;
+}
